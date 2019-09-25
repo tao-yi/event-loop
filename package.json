@@ -1,0 +1,10 @@
+{
+  "name": "eventloop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "libuv": "node libuv-epoll.js",
+    "threadpool": "UV_THREADPOOL_SIZE=6 node thread-pool.js"
+  }
+}
